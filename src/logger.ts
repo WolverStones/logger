@@ -70,7 +70,7 @@ const printErr = (err: unknown): void => {
   );
 };
 
-export {
+const logger = {
   syslog,
   syserr,
   success,
@@ -83,3 +83,5 @@ export {
   getExecutionTime,
   printErr
 };
+
+export default logger;
