@@ -1,12 +1,17 @@
-# logger
+# wolver-logger
 
-## Require the package
-```js
-const logger = require('@mirasaki/logger');
-```
+
+## About
+
+This is a TypeScript conversion of the original `@mirasaki/logger` package. For more information about the original package, visit the [original repository](https://github.com/Mirasaki/logger).
+
+## Install the package
+
+```bash
+npm install wolver-logger
 
 ## Example Usage
-```js
+```ts
 logger.syslog('Start initializing...');
 logger.syserr('Encountered error while trying to connect to database');
 logger.success(`Client initialized after ${logger.getExecutionTime(process.hrtime())}`);
