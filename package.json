@@ -1,5 +1,5 @@
 {
-  "name": "@wolver/logger",
+  "name": "logger-wolver",
   "version": "1.0.0",
   "description": "Typescript logger npm module.",
   "main": "index.ts",
