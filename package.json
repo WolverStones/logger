@@ -1,0 +1,44 @@
+{
+  "name": "@wolver/logger",
+  "version": "1.0.0",
+  "description": "Typescript logger npm module.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolverStones/logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WolverStones/logger/issues"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "chalk"
+  ],
+  "author": {
+    "name": "Richard Hillebrand"
+  },
+  "contributors": [
+    {
+      "name": "WolverStones"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/WolverStones/logger#readme",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/moment": "^2.13.0",
+    "chalk": "^4.1.2",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}
